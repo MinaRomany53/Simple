@@ -1,0 +1,25 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 200vh;
+    background-color: beige;
+}
+header {
+    background-image: url(./landing.jpg);
+    height: 95vh;
+    background-position: center center;
+    background-size: cover;
+    clip-path: circle(300vh at 50% -206vh);
+    background-attachment: fixed;
+}
+
+
+
